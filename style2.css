@@ -58,21 +58,21 @@ text-align: right;
 color: #e3e3e3;
 }
 
-div head{
+.head{
 position:absolute;
 width: 30%;
 height: 30%;
 color: #e3e3e3;
 }
 
-div body{  
+.body{  
 position: relative;
 width: 400px;
 height: 400px;
 color: #e3e3e3;
 }
 
-div wheel{
+.wheel{
 position: relative;
 width:20%;
 height:20%;
