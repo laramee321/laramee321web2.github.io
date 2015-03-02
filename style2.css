@@ -62,21 +62,21 @@ color: #e3e3e3;
 position:absolute;
 width: 30%;
 height: 30%;
-color: #e3e3e3;
+background-color: #e3e3e3;
 }
 
 .body{  
 position: relative;
 width: 400px;
 height: 400px;
-color: #e3e3e3;
+background-color: #e3e3e3;
 }
 
 .wheel{
 position: relative;
 width:20%;
 height:20%;
-color: #e3e3e3;
+background-color: #e3e3e3;
 }
 
 body {
