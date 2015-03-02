@@ -59,9 +59,10 @@ color: #e3e3e3;
 }
 
 .head{
-position:absolute;
+position:relative;
 width: 300px;
 height: 300px;
+margin:auto;
 background-color: #e3e3e3;
 }
 
@@ -69,6 +70,7 @@ background-color: #e3e3e3;
 position: relative;
 width: 400px;
 height: 400px;
+margin:auto;
 background-color: #e3e3e3;
 }
 
@@ -76,6 +78,7 @@ background-color: #e3e3e3;
 position: relative;
 width:200px;
 height:20px;
+margin:auto;
 background-color: #e3e3e3;
 }
 
