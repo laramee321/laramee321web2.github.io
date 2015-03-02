@@ -75,10 +75,11 @@ background-color: #3b3b3b;
 border-radius: 50%;
 }
 .lefteye{
+	float:left;
 position:relative;
 width: 60px;
 height: 60px;
-background-color: #7a7a7a;
+background-color: #cccccc;
 border-radius: 50%;
 }
 .righteye{
@@ -87,7 +88,7 @@ position:relative;
 width: 60px;
 height: 60px;
 left:60px;
-background-color: #7a7a7a;
+background-color: #cccccc;
 border-radius: 50%;
 }
 
