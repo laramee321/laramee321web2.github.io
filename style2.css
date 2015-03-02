@@ -51,8 +51,10 @@ table {
 
 /* Add Styles Here */
 
-p{
+h1{
 font-family:helvetica;
+font-size: 72pt;
+text-align: right;
 }
 
 
