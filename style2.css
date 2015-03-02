@@ -64,6 +64,7 @@ div head{
 position:absolute;
 width: 30%;
 height: 30%;
+color: #e3e3e3;
 }
 
 div body{  
@@ -72,6 +73,7 @@ div body{
 position: relative;
 width: 40%;
 height: 40%;
+color: #e3e3e3;
 }
 
 div wheel{
@@ -80,6 +82,7 @@ div wheel{
 position: relative;
 width:20%;
 height:20%;
+color: #e3e3e3;
 }
 
 body {
