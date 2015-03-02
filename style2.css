@@ -122,6 +122,8 @@ top:80px;
 left:15px;
 background-color: #3b3b3b;
 border-radius: 25%;
+z-index:1000;
+transition-duration: 1s;
 }
 
 
