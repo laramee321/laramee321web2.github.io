@@ -113,6 +113,18 @@ body {
 	margin:0px;
 }
 
+
+.eye:hover{
+position:relative;
+width: 120px;
+height: 0px;
+top:80px;
+left:15px;
+background-color: #3b3b3b;
+border-radius: 25%;
+}
+
+
 a:link {text-decoration:none;
 color:#e3e3e3;}
 a:visited {text-decoration:none;
