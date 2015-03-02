@@ -58,6 +58,29 @@ text-align: right;
 color: #e3e3e3;
 }
 
+div head{
+	  margin-left: auto ;
+  margin-right: auto ;
+position:absolute;
+width: 30%;
+height: 30%;
+}
+
+div body{  
+	margin-left: auto ;
+  margin-right: auto ;
+position: relative;
+width: 40%;
+height: 40%;
+}
+
+div wheel{
+  margin-left: auto ;
+  margin-right: auto ;
+position: relative;
+width:20%;
+height:20%;
+}
 
 body {
 	padding:0px;
