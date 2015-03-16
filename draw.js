@@ -37,5 +37,5 @@ $("#default").on("click",function(e){
 });
 
 $("#thin").on("click",function(e){ 
-  lineWidth(0);
+  lineWidth(1);
 });
