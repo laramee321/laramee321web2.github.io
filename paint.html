@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Logoish Playground</title>
+  <script src='http://cykod.github.io/Logoish/logoish.js'></script>
+  <script src='https://code.jquery.com/jquery-1.11.2.js'></script>
+   <link href='style.css' rel='stylesheet' type='text/css' />
+   
+   <style>
+   
+   body, html { padding:0px; margin:0px; }
+
+
+.buttons { 
+  position:fixed;
+  bottom:0px;
+  left:0px;
+}
+
+.buttons button {
+  border:0px;
+  background-color:grey;
+  padding:5px;
+  color:white;
+  border-radius:5px;
+}
+   </style>
+</head>
+<body>
+  <script>
+    Logoish.init();
+  </script>
+  <div class='buttons'>
+    <button id='forward'>Forward</button>
+    <button id='left'>Left</button>
+    <button id='right'>Right</button>
+    <button id='black'>Black</button>
+    <button id='red'>Red</button>
+    <button id='thick'>Thick</button>
+    <button id='thin'>Thin</button>
+  </div>
+  <script src='draw.js'></script>
+</body>
+</html>
