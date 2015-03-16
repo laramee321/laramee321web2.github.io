@@ -16,23 +16,18 @@ speed(0);
 
 lineWidth(1)
 
-void setup() {
-  size(640,360);
+function segment(size) {
+  rotate(70);
+  forward(size);
+  rotate(-40);
+  forward(size);
+  rotate(-40);
+  forward(size);
+  rotate(30);
 }
- 
-void draw() {
-  background(255);
-  drawCircle(width/2,height/2,200);
+
+for(var x = 0;x < 300; x++){ 
+  segment(x/3);  
 }
- 
-void drawCircle(float x, float y, float radius) {
-  stroke(0);
-  noFill();
-  ellipse(x, y, radius, radius);
-  if(radius > 2) {
- drawCircle(x + radius/2, y, radius/2);
-  drawCircle(x - radius/2, y, radius/2);
-  }}
-    
 </script>
 </body></html>
