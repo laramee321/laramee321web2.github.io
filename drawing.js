@@ -19,6 +19,10 @@ $("#button-pen").on("click",function() {
  $('#stamp2').removeClass("selected");
  $("#black").addClass("selected");
  lineColor('black');
+ $("#red").removeClass("selected");
+$("#blue").removeClass("selected");
+$("#yellow").removeClass("selected");
+ 
 });
 
 $("#button-eraser").on("click",function() {
