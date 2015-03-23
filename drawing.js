@@ -30,6 +30,9 @@ $("#button-eraser").on("click",function() {
  $('#stamp1').removeClass("selected");
  $('#stamp2').removeClass("selected");
  $("#black").removeClass("selected");
+ $("#red").removeClass("selected");
+ $("#blue").removeClass("selected");
+ $("#yellow").removeClass("selected");
 });
 
 $("#stamp1").on("click",function() {
