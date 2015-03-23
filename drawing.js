@@ -153,48 +153,11 @@ forward(size);
 
 
 //four color options
-$("#black").on("click",function(e){ 
-lineColor('black');
-$(this).addClass("selected");
-$("#red").removeClass("selected");
-$("#blue").removeClass("selected");
-$("#yellow").removeClass("selected");
-  if(tool == "eraser") { 
-  $('#button-eraser').removeClass("selected");
-  $('#button-pen').addClass("selected");
-}
-});
-
-$("#red").on("click",function(e){ 
-lineColor('red');
-$(this).addClass("selected");
-$("#black").removeClass("selected");
-$("#blue").removeClass("selected");
-$("#yellow").removeClass("selected");
-  if(tool == "eraser") { 
-  $('#button-eraser').removeClass("selected");
-  $('#button-pen').addClass("selected");
-}
-});
-
-$("#blue").on("click",function(e){ 
-lineColor('blue');
-$(this).addClass("selected");
-$("#red").removeClass("selected");
-$("#black").removeClass("selected");
-$("#yellow").removeClass("selected");
-  if(tool == "eraser") { 
-  $('#button-eraser').removeClass("selected");
-  $('#button-pen').addClass("selected");
-}
-});
-
-$("#yellow").on("click",function(e){ 
-lineColor('yellow');
-$(this).addClass("selected");
-$("#red").removeClass("selected");
-$("#blue").removeClass("selected");
-$("#black").removeClass("selected");
+$(".color").on("click",function(e) {
+  var color = $(this).data("color");
+  lineColor(color);
+  $(".color").removeClass('selected');
+  $(this).addClass('selected');
   if(tool == "eraser") { 
   $('#button-eraser').removeClass("selected");
   $('#button-pen').addClass("selected");
@@ -204,25 +167,11 @@ $("#black").removeClass("selected");
 
 
 //three line widths
-$("#thick").on("click",function(e){ 
-  lineWidth(10);
-  $(this).addClass("selected");
-$("#default").removeClass("selected");
-$("#thin").removeClass("selected");
-
+$(".line").on("click",function(e) {
+  var currentWidth = $(this).data("width");
+	lineWidth(currentWidth);
+  $(".line").removeClass('selected');
+  $(this).addClass('selected');
 });
 
-$("#default").on("click",function(e){ 
-  lineWidth(5);
-  $(this).addClass("selected");
-$("#thin").removeClass("selected");
-$("#thick").removeClass("selected");
-});
-
-$("#thin").on("click",function(e){ 
-  lineWidth(1);
-  $(this).addClass("selected");
-$("#default").removeClass("selected");
-$("#thick").removeClass("selected");
-});
 
