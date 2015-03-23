@@ -82,7 +82,7 @@ var drawing = false;
 var tool = "pen";
 
 
-$(document).on("mousedown",function(e) {
+$('canvas').on("mousedown",function(e) {
   e.preventDefault();
   moveTo(e.pageX,e.pageY);
   if(tool == "pen" || tool =="eraser") { 
@@ -94,14 +94,14 @@ $(document).on("mousedown",function(e) {
   }
 });
 
-$(document).on("mousemove",function(e) {
+$('canvas').on("mousemove",function(e) {
   e.preventDefault();
   if(drawing) {
     lineTo(e.pageX,e.pageY);
   }
 });
 
-$(document).on("mouseup",function(e) {
+$('canvas').on("mouseup",function(e) {
   e.preventDefault();
   drawing = false;
 });
