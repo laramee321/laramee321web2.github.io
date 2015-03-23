@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> MassDraw</title>
+  <script src='http://cykod.github.io/Logoish/logoish.js'></script>
+  <script src='https://code.jquery.com/jquery-1.11.2.js'></script>
+   <link href='style.css' rel='stylesheet' type='text/css' />
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+  <script>
+    Logoish.init();
+  </script>
+  <div class='buttons'>
+    <button id='button-save'><span class="fa fa-floppy-o"></span></button>
+    <button id='button-replay'><span class="fa fa-refresh"></span></button>
+  	<button id='button-eraser' class='tool'><span class="fa fa-eraser"></span></button>
+    <button id='button-pen' class='selected'><span class="fa fa-pencil"></span></button>
+  	<button id='stamp1'><i class="fa fa-star-o"></i></i></button>
+    <button id='stamp2'><i class="fa fa-square-o"></i></button>
+	  <button id='black' class='selected'>Black</button>
+    <button id='red'>Red</button>
+    <button id='blue'>Blue</button>
+    <button id='yellow'>Yellow</button>
+    <button id='thick'><img src="http://i.minus.com/iMFDtbzl1bLd8.png"></button>
+    <button id='default' class='selected'><img src="http://i.minus.com/iemmFRwyaSJxi.png"></button>
+    <button id='thin'><img src="http://i.minus.com/ibyPYIpKamsgGq.png"></button>
+  </div>
+  <script src='draw.js'></script>
+</body>
+</html>
+
+
