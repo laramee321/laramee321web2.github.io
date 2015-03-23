@@ -55,6 +55,10 @@ $("#stamp1").on("click",function() {
  $('#button-eraser').removeClass("selected");
  $('#button-pen').removeClass("selected");
  $('#stamp2').removeClass("selected");
+ $("#red").removeClass("selected");
+$("#blue").removeClass("selected");
+$("#yellow").removeClass("selected");
+  $('#black').addClass("selected");
  }
 });
 
@@ -75,6 +79,10 @@ $("#stamp2").on("click",function() {
  $('#button-eraser').removeClass("selected");
  $('#button-pen').removeClass("selected");
  $('#stamp1').removeClass("selected");
+ $("#red").removeClass("selected");
+$("#blue").removeClass("selected");
+$("#yellow").removeClass("selected");
+  $('#black').addClass("selected");
  }
 });
 
