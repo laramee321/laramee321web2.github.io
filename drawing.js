@@ -78,6 +78,7 @@ $("#stamp2").on("click",function() {
  }
 });
 
+var stamping = false;
 var drawing = false;
 var tool = "pen";
 
