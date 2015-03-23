@@ -1,0 +1,38 @@
+body, html { padding:0px; margin:0px; }
+
+.buttons{
+position:absolute;
+z-index:5;
+}
+
+.buttons button {
+  font-size: 24px;
+  padding:5px;
+  border:1px solid #999;
+  background-color:white;
+}
+
+.buttons button.selected {
+  background-color:gray;
+}
+
+.buttons button.unselected {
+  background-color:white;
+}
+
+img {
+max-width: 22px;
+max-height: 22px;
+}
+
+#red {
+color: red;
+}
+
+#blue {
+color: blue;
+}
+
+#yellow {
+color: yellow;
+}
