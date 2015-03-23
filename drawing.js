@@ -41,7 +41,6 @@ $("#stamp1").on("click",function() {
  $('#button-eraser').removeClass("selected");
  $('#button-pen').removeClass("selected");
  $('#stamp2').removeClass("selected");
-
 } else { 
   tool='stamp1';
   lineColor('black');
@@ -63,12 +62,12 @@ $("#stamp2").on("click",function() {
  $('#stamp1').removeClass("selected");
 
 } else { 
-  tool='stamp1';
+  tool='stamp2';
   lineColor('black');
  $(this).addClass("selected");
  $('#button-eraser').removeClass("selected");
  $('#button-pen').removeClass("selected");
- $('#stamp2').removeClass("selected");
+ $('#stamp1').removeClass("selected");
  }
 });
 
