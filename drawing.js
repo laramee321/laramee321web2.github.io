@@ -1,6 +1,7 @@
 record();
 reset();
 hide();
+speed(0);
 
 $("#button-save").on("click",function() {
  downloadRecording();
