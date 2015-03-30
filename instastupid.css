@@ -30,3 +30,9 @@ color: white;
 h6 { 
 color: white;
 }
+
+img {
+width:280px;
+margin: 10px;
+border: 0px;
+}
