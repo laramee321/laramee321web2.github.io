@@ -21,6 +21,10 @@ padding: 0px;
 
 
 a:link {text-decoration:none;
+border: 0px;
+margin: 10px;
 color:white;}
 a:visited {text-decoration:none;
+border: 0px;
+margin: 10px;
 color:white;}
