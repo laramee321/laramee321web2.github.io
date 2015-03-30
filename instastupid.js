@@ -2,8 +2,8 @@ var $list = $("ul.image-list");
 
 
 function addImage(image, link, likes, caption) {
-var $image = $("<img>").attr("src",image);
-var $link = $("<a>").attr("href",link);
+var $image = $("<img>").attr("src", image);
+var $link = $("<a>").attr("href", link);
 var $likes = $("<h5>").text(likes);
 var $caption = $("<h5>").text(caption);
 var $div = $('<div>');
